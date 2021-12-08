@@ -17,7 +17,7 @@ li {
     color: green;
 }
 
-img {
+.dineinpicture {
     width: 100%;
     height: auto;
     max-width: 100%;
@@ -30,6 +30,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -53,18 +54,19 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 50%;
     height: auto;
     background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: 50%;
     height: auto;
 }
 
-.service {
+.service h3{
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
@@ -72,6 +74,27 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    width: auto;
+}
+
+.aboutus {
+    font-size: 18pt;
+}
+
+.locations ul {
+    list-style-type: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.flagship li{
+    font-size: 1.25em;
+}
+
+.originstory img{
+    width: 50%;
+    height: auto;
 }
 
 table {
